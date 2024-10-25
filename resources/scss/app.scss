@@ -1,0 +1,8 @@
+/* resources/scss/app.scss */
+
+// Importa Bootstrap SCSS senza il carattere ~
+@import "bootstrap/scss/bootstrap"; // Assicurati che questo percorso sia corretto
+
+body {
+    background-color: white;
+}
