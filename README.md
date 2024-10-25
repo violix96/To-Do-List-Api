@@ -6,9 +6,13 @@ composer i
 
 eseguire le migrazioni e i seeder:
 php artisan migrate 
-php artisan db:seed
+php artisan db:seed --class=TaskSeeder
 
 nel file .env:
+
+per generare la APP_KEY= 
+digitare nel terminale : php artisan key:generate
+
 
 DB_HOST=localhost
 DB_PORT=3306
