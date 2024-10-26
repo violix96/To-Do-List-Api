@@ -5,7 +5,7 @@ npm i
 composer i
 
 eseguire le migrazioni e i seeder:
-php artisan migrate 
+php artisan migrate,
 php artisan db:seed --class=TaskSeeder
 
 nel file .env:
